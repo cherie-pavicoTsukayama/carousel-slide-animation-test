@@ -1,6 +1,6 @@
 .major-parent-box {
   height: 300px;
-  width: 300px;
+  width: 80%;
   background-color: #fafafa;
   border: 1px solid #ccc;
   overflow: hidden;
@@ -10,14 +10,12 @@
 
 .parent-box {
   height: 300px;
-  width: 600px;
+  width: 200%;
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
 }
 
 .siblings {
-  display:block;
-  float:left;
   height: 300px;
   width: 50%;
 }
@@ -40,7 +38,7 @@ span {
 
 button {
   display: block;
-  width: 300px;
+  width: 100px;
   height: 100px;
   margin: auto;
   background-color: #fff;
